@@ -1,2 +1,10 @@
-# Website-GOLDEN
-Golden is a modern and clean one-page web template. This template has a great portfolio and timeline.
+# Website "GOLDEN"
+Golden is a modern and clean one-page web template
+
+Built With
+HTML5
+CSS3
+
+Authors
+Fedyna Stanislav
+
