@@ -105,6 +105,8 @@ h1 {
 
 /* End header */
 
+/* Start services section */
+
 .title {
   padding-top: 115px;
 }
@@ -125,6 +127,10 @@ h1 {
   margin-top: 5px;
 }
 
+#services {
+  padding-bottom: 120px;
+}
+
 .services {
   margin-top: 80px;
 }
@@ -142,12 +148,36 @@ h1 {
 
 .services__item p {
   color: #777777;
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 1.55em;
 }
-.services__item:last-child{
+
+.services__item:last-child {
   float: right;
 }
-.services__item:nth-child(2){
+
+.services__item:nth-child(2) {
   margin-left: 60px;
+}
+
+/* End services section */
+
+/* Portfolio section */
+
+#portfolio {
+  background-color: #f7f7f7;
+  height: 500px;
+  padding-bottom: 120px;
+}
+.works{
+  margin-top: 70px; 
+}
+.works img {
+  float: left;
+}
+.works img:nth-child(2){
+  margin-left: 28px;
+}
+.works img:last-child {
+  float: right;
 }
