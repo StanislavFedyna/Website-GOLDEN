@@ -1,21 +1,20 @@
+/* Start main seatings */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
 }
-/* *{
-  border: 1px solid red;
-} */
+
 .clearfix:after {
   content: '';
   display: table;
   width: 100%;
   clear: both;
 }
+/* End main seatings */
 
-/* Start header */
-
+/* Start header section */
 header {
   background: url(../img/first-bg.jpg) no-repeat center top / cover;
   padding-bottom: 160px;
@@ -31,8 +30,7 @@ header {
   float: left;
 }
 
-/* Start navigation */
-
+/* Start navigation section*/
 nav {
   float: right;
   margin-top: 45px;
@@ -55,6 +53,10 @@ nav {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: #FED233;
 }
 
 /* End navigation  */
@@ -103,6 +105,10 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   margin-top: 50px;
+}
+
+.button:hover {
+  background-color: #FEBE33;
 }
 
 /* End header */
@@ -164,47 +170,64 @@ h1 {
 
 /* End services section */
 
-/* Portfolio section */
-
+/* Start Portfolio section */
 #portfolio {
   background-color: #f7f7f7;
   height: 500px;
   padding-bottom: 120px;
 }
-.works{
-  margin-top: 70px; 
+
+.works {
+  margin-top: 70px;
 }
+
 .works img {
   float: left;
 }
-.works img:nth-child(2){
+
+.works img:nth-child(2) {
   margin-left: 28px;
 }
+
 .works img:last-child {
   float: right;
 }
+
 /* End Portfolio section */
-.about-wrapper{
-  margin-top: 85px;
+
+.text-wrapper {
+  display: inline-block;
+  width: 280px;
   text-align: right;
-}
-.about-left__text{
-width: 285px;
-margin-left: 60px;
+  margin-left: 60px;
+  margin-right: 55px;
+  margin-top: 50px;
 }
 
-.header__p {
+.text-wrapper h3 {
   font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0;
-
+  line-height: 1.7em;
 }
-.main__p{
+
+.h3-date {
+  text-transform: uppercase;
+}
+
+.text-wrapper p {
   font-size: 14px;
   line-height: 1.7em;
 }
-.h2__about{
-  margin: 0;
-  padding: 0;
+
+.reposition-element {
+  margin-left: 300px;
+}
+
+footer {
+  background-color: #f7f7f7;
+}
+
+footer .container p {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
 }
