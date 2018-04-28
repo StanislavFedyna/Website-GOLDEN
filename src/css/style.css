@@ -1,4 +1,4 @@
-/* Start main seatings */
+/* START MAIN SEATINGS */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,9 +12,9 @@ body {
   width: 100%;
   clear: both;
 }
-/* End main seatings */
+/* END MAIN SEATINGS */
 
-/* Start header section */
+/* START HEADER SECTION */
 header {
   background: url(../img/first-bg.jpg) no-repeat center top / cover;
   padding-bottom: 160px;
@@ -30,7 +30,7 @@ header {
   float: left;
 }
 
-/* Start navigation section*/
+/* START NAVIGATION SECTION*/
 nav {
   float: right;
   margin-top: 45px;
@@ -58,8 +58,7 @@ nav {
 .menu a:hover {
   color: #FED233;
 }
-
-/* End navigation  */
+/* END NAVIGATION SECTION  */
 
 .title__first {
   font-size: 40px;
@@ -110,11 +109,9 @@ h1 {
 .button:hover {
   background-color: #FEBE33;
 }
+/* END HEADER SECTION */
 
-/* End header */
-
-/* Start services section */
-
+/* START SERVICE SECTION */
 .title {
   padding-top: 115px;
 }
@@ -167,10 +164,9 @@ h1 {
 .services__item:nth-child(2) {
   margin-left: 60px;
 }
+/* END SERVICES SECTION */
 
-/* End services section */
-
-/* Start Portfolio section */
+/* START PORTFOLIO SECTION */
 #portfolio {
   background-color: #f7f7f7;
   height: 500px;
@@ -192,9 +188,9 @@ h1 {
 .works img:last-child {
   float: right;
 }
+/* END PORTFOLIO SECTION */
 
-/* End Portfolio section */
-
+/* START ABOUT US SECTION */
 .text-wrapper {
   display: inline-block;
   width: 280px;
@@ -209,7 +205,7 @@ h1 {
   line-height: 1.7em;
 }
 
-.h3-date {
+.about-us-h3__date {
   text-transform: uppercase;
 }
 
@@ -221,7 +217,9 @@ h1 {
 .reposition-element {
   margin-left: 300px;
 }
+/* END ABOUT US SECTION */
 
+/* START FOOTER SECTION */
 footer {
   background-color: #f7f7f7;
 }
@@ -231,3 +229,4 @@ footer .container p {
   font-size: 14px;
   padding: 20px;
 }
+/* END FOOTER SECTION */
