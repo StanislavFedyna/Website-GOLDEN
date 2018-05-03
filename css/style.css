@@ -1,4 +1,4 @@
-/* START MAIN SEATINGS */
+/* Beginning main settings */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,9 +12,9 @@ body {
   width: 100%;
   clear: both;
 }
-/* END MAIN SEATINGS */
+/* End main settings */
 
-/* START HEADER SECTION */
+/* Beginning styling header section */
 header {
   background: url(../img/first-bg.jpg) no-repeat center top / cover;
   padding-bottom: 160px;
@@ -29,8 +29,9 @@ header {
   margin-top: 41px;
   float: left;
 }
+/* End of styling header section */
 
-/* START NAVIGATION SECTION*/
+/* Beginning styling navigation section */
 nav {
   float: right;
   margin-top: 45px;
@@ -58,7 +59,7 @@ nav {
 .menu a:hover {
   color: #FED233;
 }
-/* END NAVIGATION SECTION  */
+/* End of styling navigation section */
 
 .title__first {
   font-size: 40px;
@@ -109,9 +110,9 @@ h1 {
 .button:hover {
   background-color: #FEBE33;
 }
-/* END HEADER SECTION */
+/* End of styling header section */
 
-/* START SERVICE SECTION */
+/* Beginning styling services section */
 .title {
   padding-top: 115px;
 }
@@ -164,9 +165,9 @@ h1 {
 .services__item:nth-child(2) {
   margin-left: 60px;
 }
-/* END SERVICES SECTION */
+/* End of styling services section */
 
-/* START PORTFOLIO SECTION */
+/* Beginning styling portfolio section */
 #portfolio {
   background-color: #f7f7f7;
   height: 500px;
@@ -188,9 +189,9 @@ h1 {
 .works img:last-child {
   float: right;
 }
-/* END PORTFOLIO SECTION */
+/* End of styling portfolio section */
 
-/* START ABOUT US SECTION */
+/* Beginning styling about-us section */
 .text-wrapper {
   display: inline-block;
   width: 280px;
@@ -217,9 +218,9 @@ h1 {
 .reposition-element {
   margin-left: 300px;
 }
-/* END ABOUT US SECTION */
+/* end of styling about us section */
 
-/* START FOOTER SECTION */
+/* beginning styling footer section */
 footer {
   background-color: #f7f7f7;
 }
@@ -232,4 +233,4 @@ footer .container p {
 footer .container a{
   text-decoration: none;
 }
-/* END FOOTER SECTION */
+/* end of styling footer section */
