@@ -127,7 +127,8 @@ h1 {
 }
 
 .title p {
-  columns: #777;
+  -webkit-columns: #777;
+          columns: #777;
   text-align: center;
   font-size: 16px;
   margin-top: 5px;
