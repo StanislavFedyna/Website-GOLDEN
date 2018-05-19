@@ -1,4 +1,4 @@
-/* Beginning main settings */
+/* Specification */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   width: 100%;
   clear: both;
 }
-/* End main settings */
+/* End of specification */
 
 /* Beginning styling header section */
 header {
